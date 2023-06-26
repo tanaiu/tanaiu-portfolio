@@ -1,0 +1,59 @@
+.cartContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 40px 0;
+}
+
+.cartContainerHeader {
+  text-align: center;
+}
+
+.cartContainerHeader > h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.cartContainerHeader > h3 {
+  color: gray;
+  letter-spacing: 4px;
+}
+
+.cartContainerFooter {
+  margin-top: 64px;
+  text-align: center;
+}
+
+hr {
+  border: 0.25px solid gray;
+}
+
+.cartContainerFooter > h3 {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 3px;
+}
+
+.cartContainerFooterButton {
+  margin-top: 36px;
+  border: 1px solid crimson;
+  color: crimson;
+  background: transparent;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.cartContainerFooterButton:hover {
+  background: crimson;
+  color: white;
+  opacity: 0.5;
+  transition: 0.3s all ease;
+}
